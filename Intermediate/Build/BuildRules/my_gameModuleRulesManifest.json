@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\ue_project\\my_game\\Source\\my_game\\my_game.Build.cs",
-		"D:\\ue_project\\my_game\\Source\\my_game.Target.cs",
-		"D:\\ue_project\\my_game\\Source\\my_gameEditor.Target.cs"
+		"E:\\Unreal_engine\\my_game1\\Source\\my_game\\my_game.Build.cs",
+		"E:\\Unreal_engine\\my_game1\\Source\\my_game.Target.cs",
+		"E:\\Unreal_engine\\my_game1\\Source\\my_gameEditor.Target.cs"
 	],
 	"EngineVersion": "5.6.1"
 }
