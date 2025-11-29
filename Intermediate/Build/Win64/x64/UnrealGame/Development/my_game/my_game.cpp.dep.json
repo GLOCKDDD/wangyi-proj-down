@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unreal_engine\\my_game1\\source\\my_game\\my_game.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unreal_engine\\my_game1\\intermediate\\build\\win64\\x64\\my_game\\development\\engine\\sharedpch.engine.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "e:\\unreal_engine\\my_game1\\intermediate\\build\\win64\\x64\\unrealgame\\development\\my_game\\definitions.my_game.h",
+            "e:\\unreal_engine\\my_game1\\source\\my_game\\my_game.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
