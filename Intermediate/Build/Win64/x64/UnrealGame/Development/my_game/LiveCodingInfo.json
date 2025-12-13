@@ -1,9 +1,0 @@
-{
-	"RemapUnityFiles": 
-	{
-		"Module.my_game.gen.cpp.obj": [
-			"my_game.init.gen.cpp.obj",
-			"Test.gen.cpp.obj"
-		]
-	}
-}
