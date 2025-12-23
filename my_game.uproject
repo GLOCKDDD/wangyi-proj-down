@@ -3,7 +3,6 @@
 	"EngineAssociation": "5.6",
 	"Category": "",
 	"Description": "",
-	"Modules": [],
 	"Plugins": [
 		{
 			"Name": "ModelingToolsEditorMode",
@@ -19,6 +18,11 @@
 		{
 			"Name": "Landmass",
 			"Enabled": true
+		},
+		{
+			"Name": "TheTargetingSystem",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/f5678e6f0b634987a335e75a2387f8af"
 		}
 	]
 }
