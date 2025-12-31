@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class ATS_GameMode *************************************************************
 THETARGETINGSYSTEM_API UClass* Z_Construct_UClass_ATS_GameMode_NoRegister();
 
-#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_GameMode_h_15_INCLASS_NO_PURE_DECLS \
+#define FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_GameMode_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATS_GameMode(); \
 	friend struct Z_Construct_UClass_ATS_GameMode_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(ATS_GameMode)
 
 
-#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_GameMode_h_15_ENHANCED_CONSTRUCTORS \
+#define FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_GameMode_h_15_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ATS_GameMode(ATS_GameMode&&) = delete; \
 	ATS_GameMode(const ATS_GameMode&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~ATS_GameMode();
 
 
-#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_GameMode_h_12_PROLOG
-#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_GameMode_h_15_GENERATED_BODY \
+#define FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_GameMode_h_12_PROLOG
+#define FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_GameMode_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_GameMode_h_15_INCLASS_NO_PURE_DECLS \
-	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_GameMode_h_15_ENHANCED_CONSTRUCTORS \
+	FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_GameMode_h_15_INCLASS_NO_PURE_DECLS \
+	FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_GameMode_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class ATS_GameMode;
 // ********** End Class ATS_GameMode ***************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_GameMode_h
+#define CURRENT_FILE_ID FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_GameMode_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

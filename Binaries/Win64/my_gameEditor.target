@@ -22,6 +22,30 @@
 	},
 	"BuildProducts": [
 		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor-my_game.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor-my_game.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TheTarge56ea29da3a47V4/Binaries/Win64/UnrealEditor-TheTargetingSystem.dll",
+			"Type": "DynamicLibrary"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TheTarge56ea29da3a47V4/Binaries/Win64/UnrealEditor-TheTargetingSystem.pdb",
+			"Type": "SymbolFile"
+		},
+		{
+			"Path": "$(ProjectDir)/Plugins/TheTarge56ea29da3a47V4/Binaries/Win64/UnrealEditor.modules",
+			"Type": "RequiredResource"
+		},
+		{
 			"Path": "$(EngineDir)/Binaries/Win64/AgentInterface.dll",
 			"Type": "DynamicLibrary"
 		},
@@ -4188,21 +4212,17 @@
 		{
 			"Path": "$(EngineDir)/Plugins/XGEController/Binaries/Win64/UnrealEditor.modules",
 			"Type": "RequiredResource"
-		},
-		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor-my_game.dll",
-			"Type": "DynamicLibrary"
-		},
-		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor-my_game.pdb",
-			"Type": "SymbolFile"
-		},
-		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UnrealEditor.modules",
-			"Type": "RequiredResource"
 		}
 	],
 	"RuntimeDependencies": [
+		{
+			"Path": "$(ProjectDir)/Plugins/TheTarge56ea29da3a47V4/TheTargetingSystem.uplugin",
+			"Type": "UFS"
+		},
+		{
+			"Path": "$(ProjectDir)/my_game.uproject",
+			"Type": "UFS"
+		},
 		{
 			"Path": "$(EngineDir)/Binaries/ThirdParty/DbgHelp/dbghelp.dll",
 			"Type": "NonUFS"
@@ -28710,10 +28730,6 @@
 		{
 			"Path": "$(EngineDir)/Plugins/XGEController/XGEController.uplugin",
 			"Type": "UFS"
-		},
-		{
-			"Path": "$(ProjectDir)/my_game.uproject",
-			"Type": "UFS"
 		}
 	],
 	"BuildPlugins": [
@@ -28903,6 +28919,7 @@
 		"TcpMessaging",
 		"TemplateSequence",
 		"TextureFormatOodle",
+		"TheTargetingSystem",
 		"ToolPresets",
 		"TraceUtilities",
 		"TweeningUtils",

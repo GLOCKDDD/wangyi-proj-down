@@ -65,18 +65,26 @@ struct Z_Construct_UClass_ATS_Character_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_CameraBoom_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Camera boom positioning the camera behind the character */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/TS_Character.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Camera boom positioning the camera behind the character" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_FollowCamera_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
 		{ "Category", "Camera" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Follow camera */" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/TS_Character.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Follow camera" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TargetingWidget_3D_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -86,15 +94,23 @@ struct Z_Construct_UClass_ATS_Character_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BaseTurnRate_MetaData[] = {
 		{ "Category", "Camera" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Base turn rate, in deg/sec. Other scaling may affect final turn rate. */" },
+#endif
 		{ "ModuleRelativePath", "Public/TS_Character.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Base turn rate, in deg/sec. Other scaling may affect final turn rate." },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_BaseLookUpRate_MetaData[] = {
 		{ "Category", "Camera" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Base look up/down rate, in deg/sec. Other scaling may affect final rate. */" },
+#endif
 		{ "ModuleRelativePath", "Public/TS_Character.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Base look up/down rate, in deg/sec. Other scaling may affect final rate." },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_CameraBoom;
@@ -155,14 +171,14 @@ ATS_Character::~ATS_Character() {}
 // ********** End Class ATS_Character **************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_Character_h__Script_TheTargetingSystem_Statics
+struct Z_CompiledInDeferFile_FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_Character_h__Script_TheTargetingSystem_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATS_Character, ATS_Character::StaticClass, TEXT("ATS_Character"), &Z_Registration_Info_UClass_ATS_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATS_Character), 981773725U) },
+		{ Z_Construct_UClass_ATS_Character, ATS_Character::StaticClass, TEXT("ATS_Character"), &Z_Registration_Info_UClass_ATS_Character, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATS_Character), 2583419142U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_Character_h__Script_TheTargetingSystem_2691288527(TEXT("/Script/TheTargetingSystem"),
-	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_Character_h__Script_TheTargetingSystem_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_Character_h__Script_TheTargetingSystem_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_Character_h__Script_TheTargetingSystem_1602518655(TEXT("/Script/TheTargetingSystem"),
+	Z_CompiledInDeferFile_FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_Character_h__Script_TheTargetingSystem_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_Character_h__Script_TheTargetingSystem_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************

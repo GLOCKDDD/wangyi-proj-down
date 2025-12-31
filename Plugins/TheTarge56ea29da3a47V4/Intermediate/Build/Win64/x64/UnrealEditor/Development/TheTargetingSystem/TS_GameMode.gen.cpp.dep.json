@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\github_clon\\wangyi-proj-down\\plugins\\thetarge56ea29da3a47v4\\intermediate\\build\\win64\\unrealeditor\\inc\\thetargetingsystem\\uht\\ts_gamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\github_clon\\wangyi-proj-down\\intermediate\\build\\win64\\x64\\my_gameeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.valexpapi.cpp20.inclorderunreal5_3.h.pch",
+        "Includes": [
+            "d:\\github_clon\\wangyi-proj-down\\plugins\\thetarge56ea29da3a47v4\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\thetargetingsystem\\definitions.thetargetingsystem.h",
+            "d:\\github_clon\\wangyi-proj-down\\plugins\\thetarge56ea29da3a47v4\\source\\thetargetingsystem\\public\\ts_gamemode.h",
+            "d:\\ue5\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "d:\\ue5\\ue_5.6\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "d:\\ue5\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "d:\\ue5\\ue_5.6\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "d:\\github_clon\\wangyi-proj-down\\plugins\\thetarge56ea29da3a47v4\\intermediate\\build\\win64\\unrealeditor\\inc\\thetargetingsystem\\uht\\ts_gamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

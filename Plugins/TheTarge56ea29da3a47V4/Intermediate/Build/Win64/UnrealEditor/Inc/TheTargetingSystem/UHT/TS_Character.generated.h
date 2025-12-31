@@ -19,7 +19,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 // ********** Begin Class ATS_Character ************************************************************
 THETARGETINGSYSTEM_API UClass* Z_Construct_UClass_ATS_Character_NoRegister();
 
-#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_Character_h_12_INCLASS_NO_PURE_DECLS \
+#define FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_Character_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesATS_Character(); \
 	friend struct Z_Construct_UClass_ATS_Character_Statics; \
@@ -30,7 +30,7 @@ public: \
 	DECLARE_SERIALIZER(ATS_Character)
 
 
-#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_Character_h_12_ENHANCED_CONSTRUCTORS \
+#define FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_Character_h_12_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	ATS_Character(ATS_Character&&) = delete; \
 	ATS_Character(const ATS_Character&) = delete; \
@@ -40,12 +40,12 @@ public: \
 	NO_API virtual ~ATS_Character();
 
 
-#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_Character_h_9_PROLOG
-#define FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_Character_h_12_GENERATED_BODY \
+#define FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_Character_h_9_PROLOG
+#define FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_Character_h_12_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_Character_h_12_INCLASS_NO_PURE_DECLS \
-	FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_Character_h_12_ENHANCED_CONSTRUCTORS \
+	FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_Character_h_12_INCLASS_NO_PURE_DECLS \
+	FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_Character_h_12_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -55,6 +55,6 @@ class ATS_Character;
 // ********** End Class ATS_Character **************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_Character_h
+#define CURRENT_FILE_ID FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_Character_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

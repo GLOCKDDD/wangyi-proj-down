@@ -1,0 +1,20 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.TheTargetingSystem.cpp.obj": [
+			"TargetingSystemComponent.gen.cpp.obj",
+			"TheTargetingSystem.init.gen.cpp.obj",
+			"TS_AIController.gen.cpp.obj",
+			"TS_Character.gen.cpp.obj",
+			"TS_GameMode.gen.cpp.obj",
+			"TS_PlayerController.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"TargetingSystemComponent.cpp.obj",
+			"TheTargetingSystem.cpp.obj",
+			"TS_AIController.cpp.obj",
+			"TS_Character.cpp.obj",
+			"TS_GameMode.cpp.obj",
+			"TS_PlayerController.cpp.obj"
+		]
+	}
+}

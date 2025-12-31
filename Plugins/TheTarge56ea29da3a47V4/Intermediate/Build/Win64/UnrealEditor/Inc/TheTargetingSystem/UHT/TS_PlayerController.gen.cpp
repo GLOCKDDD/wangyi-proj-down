@@ -27,9 +27,13 @@ struct Z_Construct_UFunction_ATS_PlayerController_TargetCenter_Statics
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[] = {
 		{ "Category", "Lock-On" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//call these to perform targeting\n" },
+#endif
 		{ "ModuleRelativePath", "Public/TS_PlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "call these to perform targeting" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FFunctionParams FuncParams;
@@ -164,10 +168,14 @@ struct Z_Construct_UClass_ATS_PlayerController_Statics
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_AIPerceptionComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
 		{ "Category", "Components" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//private\n" },
+#endif
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/TS_PlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "private" },
+#endif
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_TargetingSystemComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "TRUE" },
@@ -177,9 +185,13 @@ struct Z_Construct_UClass_ATS_PlayerController_Statics
 	};
 	static constexpr UECodeGen_Private::FMetaDataPairParam NewProp_SenseConfig_Sight_MetaData[] = {
 		{ "Category", "Perception" },
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "//configuration for Sight Sense for Perception\n" },
+#endif
 		{ "ModuleRelativePath", "Public/TS_PlayerController.h" },
+#if !UE_BUILD_SHIPPING
 		{ "ToolTip", "configuration for Sight Sense for Perception" },
+#endif
 	};
 #endif // WITH_METADATA
 	static const UECodeGen_Private::FObjectPropertyParams NewProp_AIPerceptionComponent;
@@ -188,7 +200,7 @@ struct Z_Construct_UClass_ATS_PlayerController_Statics
 	static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 	static UObject* (*const DependentSingletons[])();
 	static constexpr FClassFunctionLinkInfo FuncInfo[] = {
-		{ &Z_Construct_UFunction_ATS_PlayerController_TargetCenter, "TargetCenter" }, // 3709993921
+		{ &Z_Construct_UFunction_ATS_PlayerController_TargetCenter, "TargetCenter" }, // 1245820081
 		{ &Z_Construct_UFunction_ATS_PlayerController_TargetLeft, "TargetLeft" }, // 1296815811
 		{ &Z_Construct_UFunction_ATS_PlayerController_TargetRight, "TargetRight" }, // 682592527
 	};
@@ -240,14 +252,14 @@ ATS_PlayerController::~ATS_PlayerController() {}
 // ********** End Class ATS_PlayerController *******************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_PlayerController_h__Script_TheTargetingSystem_Statics
+struct Z_CompiledInDeferFile_FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_PlayerController_h__Script_TheTargetingSystem_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATS_PlayerController, ATS_PlayerController::StaticClass, TEXT("ATS_PlayerController"), &Z_Registration_Info_UClass_ATS_PlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATS_PlayerController), 2787669594U) },
+		{ Z_Construct_UClass_ATS_PlayerController, ATS_PlayerController::StaticClass, TEXT("ATS_PlayerController"), &Z_Registration_Info_UClass_ATS_PlayerController, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATS_PlayerController), 2837574623U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_PlayerController_h__Script_TheTargetingSystem_420696124(TEXT("/Script/TheTargetingSystem"),
-	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_PlayerController_h__Script_TheTargetingSystem_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_PlayerController_h__Script_TheTargetingSystem_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_PlayerController_h__Script_TheTargetingSystem_2305638018(TEXT("/Script/TheTargetingSystem"),
+	Z_CompiledInDeferFile_FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_PlayerController_h__Script_TheTargetingSystem_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_github_clon_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_PlayerController_h__Script_TheTargetingSystem_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************
