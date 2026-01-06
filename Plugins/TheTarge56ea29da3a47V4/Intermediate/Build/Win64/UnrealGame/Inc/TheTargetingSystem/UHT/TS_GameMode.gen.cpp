@@ -55,7 +55,9 @@ struct Z_Construct_UClass_ATS_GameMode_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
+#if !UE_BUILD_SHIPPING
 		{ "Comment", "/**\n * \n */" },
+#endif
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "TS_GameMode.h" },
 		{ "ModuleRelativePath", "Public/TS_GameMode.h" },
@@ -101,14 +103,14 @@ ATS_GameMode::~ATS_GameMode() {}
 // ********** End Class ATS_GameMode ***************************************************************
 
 // ********** Begin Registration *******************************************************************
-struct Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_GameMode_h__Script_TheTargetingSystem_Statics
+struct Z_CompiledInDeferFile_FID_Unreal_engine_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_GameMode_h__Script_TheTargetingSystem_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ATS_GameMode, ATS_GameMode::StaticClass, TEXT("ATS_GameMode"), &Z_Registration_Info_UClass_ATS_GameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATS_GameMode), 1338787612U) },
+		{ Z_Construct_UClass_ATS_GameMode, ATS_GameMode::StaticClass, TEXT("ATS_GameMode"), &Z_Registration_Info_UClass_ATS_GameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ATS_GameMode), 1711610714U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_GameMode_h__Script_TheTargetingSystem_265356682(TEXT("/Script/TheTargetingSystem"),
-	Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_GameMode_h__Script_TheTargetingSystem_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_build_U5M_Sync_LocalBuilds_PluginTemp_HostProject_Plugins_TheTargetingSystem_Source_TheTargetingSystem_Public_TS_GameMode_h__Script_TheTargetingSystem_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Unreal_engine_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_GameMode_h__Script_TheTargetingSystem_100284339(TEXT("/Script/TheTargetingSystem"),
+	Z_CompiledInDeferFile_FID_Unreal_engine_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_GameMode_h__Script_TheTargetingSystem_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Unreal_engine_wangyi_proj_down_Plugins_TheTarge56ea29da3a47V4_Source_TheTargetingSystem_Public_TS_GameMode_h__Script_TheTargetingSystem_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // ********** End Registration *********************************************************************
